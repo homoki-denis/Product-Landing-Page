@@ -658,15 +658,35 @@ a:hover::after {
   margin: 1.8rem 0 1rem 0;
 }
 
-.price-card-button button {
-  background-color: #fff;
+.price-card-button-middle {
+  margin: 1.8rem auto;
+}
+
+.price-card-button-middle button {
   color: #02897a;
+  background-color: #fff;
   border-radius: 4px;
   padding: 10px 25px;
   font-weight: 600;
   cursor: pointer;
   border: 1px solid #02897a;
-  transition: color all 0.5s;
+  transition: 0.5s;
+}
+
+.price-card-button button {
+  background-color: #02897a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #02897a;
+  transition: 0.5s;
+}
+
+.price-card-button button:hover {
+  background-color: #fff;
+  color: #02897a;
 }
 
 .price-sum-dollar-white > p {
@@ -682,7 +702,7 @@ a:hover::after {
 }
 
 .price-button > button {
-  color: #02897a;
+  background-color: #fff;
 }
 
 /* ////////////////////// Client Opinions Section //////////////////// */
